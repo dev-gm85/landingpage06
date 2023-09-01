@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu1{
+    display: flex;
+    flex-direction: column;
+}
+.menus1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #15184b;
+    color: whitesmoke;
+    max-height: 40px;
+    padding: 7px 50px;
+}
+.opcoes-1{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: bold;    
+}
+.imagem-menu1{
+    height: 14px;
+}
+.opcoes-2{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: bold;
+}
+.opcoes-3{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100vw;
+}
+.menus2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.caixa1{
+    display: flex;
+    border-right: 1px solid silver;
+    max-height: 70px;
+    padding: 20px 55px 20px 50px;
+ }
+ .car{
+    height: 30px;
+ }
+ .caixa2{
+    display: flex;
+    width: 35vw;
+ }
+ .navbar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+ }
+ .navbar1 a:link{
+    text-decoration: none;
+    color: black;
+ }
+ .navbar1 a:hover{
+    color: #f8de22;
+    text-decoration: none;
+ }
+ .navbar1 a:visited{
+    color: #f8de22;
+    text-decoration: none;
+ }
+ .navbar2{
+    background-color: #f8de22;
+    color: whitesmoke;
+    padding: 20px 0px;
+ }
