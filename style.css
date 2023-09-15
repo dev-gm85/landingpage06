@@ -82,7 +82,7 @@
     color: black;
  }
   .navbar-link a:visited{
-    color: black;
+    color: darkblue;
     text-decoration: none;
  }
 .navbar-link a:hover{
@@ -187,13 +187,18 @@
     font-size: 18px;
 }
 .body3{
-    margin: 50px;
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
 .body3-box3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
     gap: 30px;
 }
 .body3-box3-textbox{
@@ -213,7 +218,9 @@
 }
 .body3-box3-1{
     display: flex;
-    gap: 60px;
+    flex-direction: row;
+    width: 95vw;
+    justify-content: space-between;
 }
 .body3-trainers{
     background-color: lightblue;
@@ -228,6 +235,7 @@
     flex-direction: row;
     color: #fffafa;
     justify-content: space-between;
+    padding: 4px 10px;
   }
   .column1 h6{
     color: #f8de22;
@@ -237,6 +245,20 @@
     flex-direction: column;
     gap: 10px;
   }
+  .column2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  .column2 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
   .footer-item-1{
     display: flex;
     flex-direction: row;
@@ -244,6 +266,9 @@
   .item{
     list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALZJREFUSEvtlDEOAjEMBMe/QHyNBlGAKJBoEY+gowEaeOiiSClO4Q47gXSXerOjXVs2Oj/r7M8McBsOVSTpBCzN7OA6FgIXIOkCHPO/m5ltayARwBXYD0yrIC4gGUtqhoQAGfIANrVJagBJey8hwM7MNDWXMCCnSPoXsBoYPoH1FKQFUKb4D0DSWEVfzVPKcAJJH0P2+g8Duq7pL+ahBN1PRV7PM7DocuxqDtuYNrxFraAZ4Db3BkrISRmCcYxWAAAAAElFTkSuQmCC);
     list-style-position: outside;
+  }
+  .column3{
+    gap: 10px;
   }
   .footer2{
     background-color: #15184b;
